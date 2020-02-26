@@ -36,21 +36,21 @@ Note that the answer must be a substring, `pwke` is a subsequence and not a subs
 Build Requirements
 ------------------
 ```
-# Build Requirements here
+# Use Python 3.7
 ```
 
 
 How to build
 ------------
 ```
-# instructions here
+# Run first-challenge.py on terminal
 ```
 
 
 How to Run
 ----------
 ```
-# instructions here
+# Input any type of string you want and it will return the longest string without repeating any char
 ```
 
 
