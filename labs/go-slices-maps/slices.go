@@ -12,6 +12,7 @@ func Pic(dx, dy int) [][]uint8 {
 
 	for i := 0; i < dy; i++ {
 		for j := 0; j < dx; j++ {
+
 			s[i][j] = uint8(i ^ j)
 		}
 	}
