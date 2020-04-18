@@ -1,2 +1,14 @@
+CC       = gcc
+CFLAGS   = -Wall
+LDFLAGS  =
+OBJFILES = logger.o testLogger.o
+TARGET   = testLogger
 
-include ../../common.mk
+all: $(TARGET)
+
+$(TARGET) : $(OBJFILES)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJFILES) $(LDFLAGS)
+
+clean:
+	rm -f $(OBJFILES) $(TARGET) *~
+
