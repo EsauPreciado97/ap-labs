@@ -1,3 +1,5 @@
+include ../../common.mk
+
 CC       = gcc
 CFLAGS   = -Wall
 LDFLAGS  =
